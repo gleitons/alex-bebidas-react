@@ -1,0 +1,26 @@
+.heroF {
+    background-image: url(/src/assets/img/cerveja-alex-bebidas.jpeg);
+    background-size: cover;
+    height: 80vh;
+    
+    
+}
+.heroF > h2 {
+    padding-top: 30vh;
+    font-size: 150px;
+    text-align: center;
+    text-shadow:black 0px 0px 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .heroF {
+       
+        width: 100%;
+    }
+    .heroF > h2 {
+        font-size: 60px;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+    }
+}
